@@ -1,11 +1,11 @@
-About r-chemometrics
-====================
+About r-chemometrics-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-chemometrics-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=chemometrics
 
 Package license: GPL (>= 3)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-chemometrics-feedstock/blob/main/LICENSE.txt)
 
 Summary: R companion to the book "Introduction to Multivariate Statistical Analysis in Chemometrics" written by K. Varmuza and P. Filzmoser (2009).
 
