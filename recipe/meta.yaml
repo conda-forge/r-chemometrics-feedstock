@@ -1,4 +1,4 @@
-{% set version = '1.4.2' %}
+{% set version = "1.4.4" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/chemometrics_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/chemometrics/chemometrics_{{ version }}.tar.gz
-  sha256: b705832fa167dc24b52b642f571ed1efd24c5f53ba60d02c7797986481b6186a
+  sha256: fd0edb1ebe321ff7677d0a668d7dfc79a7cd55f408a53d1f13db4cf6347aa881
 
 build:
   noarch: generic
-  number: 1004
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
